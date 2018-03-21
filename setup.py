@@ -5,7 +5,7 @@ python setup.py build
 '''
 from distutils.core import setup, Extension, DEBUG
 
-sfc_module = Extension('superfastcode', sources = ['main.cpp'])
+sfc_module = Extension('superfastcode', sources = ['main1.cpp'])
 
 setup(name = 'superfastcode',
     version = '1.0',
